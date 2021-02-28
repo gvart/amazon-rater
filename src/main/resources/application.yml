@@ -1,0 +1,9 @@
+amazon:
+  rater:
+    accuracy: HIGH
+    search-strategy-type: FULL_PARALLEL
+    url-template: https://completion.amazon.com/search/complete?search-alias=aps&mkt=1&q={keyword}
+
+logging:
+  level:
+    com.gvart.amazonrater: DEBUG
